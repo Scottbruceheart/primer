@@ -1,0 +1,7 @@
+[Draft]
+An infinite distance between, "an implementation that seems to work" and "we designed this to be as close to possible to the optimal resource cost and correctness bound as we could given the resources we had to work on it."
+
+The process to implement software is more complex than just, "we have an implementation that works."  To have a hope of a good design, we must both work from first principles and do computations that are akin to what engineers in other disciplines do ('calculations of what the physical or computational limits are).  The first step is to figure out what problem we are trying to solve, what system we are trying to improve, or what producut we are trying to implement.  This provides us a foundation from which to work. At this point we understand how larege our data sets are, what they are composed of, what computational machinery is involved in our task, what physical machinery is involved in our taks, what our operation sets are (ie: the 'actions' of the system), how long each of these actions is allowed to take (in terms of physical time or sequence numbers (which are a different form of time), and what the cost of using various resources to solve aspects of our problem are.
+
+This paper is to discuss the ideas around doing physical calculations to determine the lower bounds on computational cost of some operations or feature.
+Steps to implemnt a piece of software go beyond just
