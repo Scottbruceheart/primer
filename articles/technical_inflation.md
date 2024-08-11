@@ -1,6 +1,6 @@
 # Technical Debt Is Better Named Technical Inflation
 
-_There is no organizaion that punishes you for your sins, your sins punish you directly._
+_There is no organization that punishes you for your sins, your sins punish you directly._
 
   Whenever we add features to a software system, complexity grows. Adding complexity increases the software maintenance cost exponentially.
   People in the software industry have an instinct that 'cutting corners' lets us ship software faster, but with some sort of looming and unclear future price to be paid.
