@@ -1,6 +1,6 @@
 # Five Algorithmic Building Blocks
 
-Scott Bruce, 2025-2-10
+Scott Bruce, 2025-2-10, Status: Draft
 
 >*There are three levels of software engineering understanding: understanding pointers, understanding recursion, and understanding threads. Nobody truly understands threads.*
 
