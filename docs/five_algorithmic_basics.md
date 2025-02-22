@@ -51,7 +51,7 @@ Depth first search pushes nodes onto a stack, and then processes the node it is 
 cachelines, branch predict, out of order execution, superscalar arch, bitwise ops, better cost model, multiple execution threads, hyperthreads
 
 | Ops | Cost|
--------------
+|-----|-----|
 |Bitwise Ops, Shifts |~0 |
 |Bitwise Ops, Add, Subtract |~1 |
 |Multiply, Branch Hit, Predicted Indirect |1-3 |
