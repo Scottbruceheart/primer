@@ -1,4 +1,4 @@
-# 
+# Writing Software For Two Billion People 
 
 ## Human Population Scale Software
 
@@ -43,6 +43,10 @@ Simply focusing on efficiency of execution is also insufficient.  Attempting to 
 ### Abstraction Layers Allow Progress
 
 The way to make progress is put cuts in the codebase frequently that can be reduced in cost or extracted to run on their own computing system/hardware when they become a limiting factor.  Keeping abstraction boundaries tight makes it tractable to do most large system engineering tasks that would otherwise be impossible. Generally, when designing large distributed systems (which all software systems eventualy become, as utilizing the network is critical for solving all non-trivial problems), defined hard RPC boundaries with simple request/response semantics in all cases.  Use those as the abstraction walls between boxes of software.  When one box is too full of slop or trash, you can safely replace it as all of its interfaces are precisely specified.
+
+## Seems a Bit Rigid!
+
+The requirements for writing software that services a billion people are different than the requirements to serve a million people. If you have two people and 8 days, you can hack something together for ten million people just fine.  If you want to have a credible chance at growing to a billion users, then knowing what the right path is is a requirement.  You can choose when and where to step off the correct path for the purpose of expediency; doing so simply has a severe cost.
 
 [^1]: All this implies that anytime a engineer or tester does see a problem in an app, it is a HUGE DEAL, because it is probably hitting at a p95 or more frequent level.
 [^2]: This also implies that large fractions of development and testing _must_ be done in low capability environments with low capability devices: a problem any engineer encounters directly is much more likely to be swiftly fixed.
