@@ -2,7 +2,7 @@
 
 ## Human Population Scale Software
 
-There are over 7 billion living humans, and there are over 9 billion user-focused computing devices.  Many, possibly most, software engineers are engaged in writing software that is useful to a material fraction (500 million or more) of those users and computing devices. Writing software at this scale has a very large number of very non-obvious challenges and implications.  We're are going to discuss the ones related to the concept that 'outlier has a very different meaning with a two billion sized user base'.
+There are over 7 billion living humans, and there are over 9 billion user-focused computing devices.  Many, possibly most, software engineers are engaged in writing software that is useful to a material fraction (500 million or more) of those users and computing devices. Writing software at this scale has a very large number of very non-obvious challenges and implications.  We're going to discuss the ones related to the concept that 'outlier has a very different meaning with a two billion sized user base'.
 
 ## Outliers Dominate User Experience
 
@@ -46,7 +46,7 @@ Simply focusing on efficiency of execution is also insufficient.  Attempting to 
 
 ### Abstraction Layers Allow Progress
 
-The way to make progress is put boundaries in the codebase frequently that can be reduced in cost or extracted to run on their own computing system/hardware. We extract these when they become a limiting factor. Keeping abstraction boundaries tight makes it tractable to do large system engineering tasks that would otherwise be impossible. When designing large distributed systems (which all software systems eventualy become, as utilizing a network[^6] is critical for solving all non-trivial problems), define hard RPC boundaries with simple request/response semantics in all cases.  Use those as the abstraction walls between boxes of software.  When one box is too full of slop or trash, you can safely replace it as all of its interfaces are precisely specified.
+The way to make progress is to put boundaries in the codebase frequently that can be reduced in cost or extracted to run on their own computing system/hardware. We extract these when they become a limiting factor. Keeping abstraction boundaries tight makes it tractable to do large system engineering tasks that would otherwise be impossible. When designing large distributed systems (which all software systems eventually become, as utilizing a network[^6] is critical for solving all non-trivial problems), define hard RPC boundaries with simple request/response semantics in all cases.  Use those as the abstraction walls between boxes of software.  When one box is too full of slop or trash, you can safely replace it as all of its interfaces are precisely specified.
 
 This allows us to focus on efficiency, do some benchmark engineering, and do real engineering! As we know, the process of engineering is: design a system, estimate the cost of that system, implement that system, measure the actual cost of that system, decide if the outcome is good enough, repeat if necessary[^7].
 
