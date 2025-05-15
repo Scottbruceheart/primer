@@ -13,7 +13,7 @@ Either way, we consider this step complete when we have a written specification 
 
 ## Specify what threat of the problem is.
 
-What's the damage potential of the threat? How bad is it already? How bad could it potentially be? Quantify this! What's an ideal fix? What's the const benefit tradeoff on the path towards an ideal fix?
+What's the damage potential of the threat? How bad is it already? How bad could it potentially be? Quantify this! What's an ideal fix? What's the cost benefit tradeoff on the path towards an ideal fix?
 
 We consider this step complete when we have a precise threat description and a cost benefit analysis of a few ways to fix the threat.
 
